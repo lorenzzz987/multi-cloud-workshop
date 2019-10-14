@@ -4,39 +4,39 @@
 
 Verify that you can succesfully login to AWS:
 
-URL: https://gluo-workshop.signin.aws.amazon.com/console
-USERNAME: <will be provided during workshop>
-PASSWORD: <will be provided during workshop>
+* URL: https://gluo-workshop.signin.aws.amazon.com/console
+* USERNAME: <will be provided during workshop>
+* PASSWORD: <will be provided during workshop>
 
 ## 2. Google Cloud Console login ##
 
-URL: https://console.cloud.google.com
-USERNAME: <will be provided during workshop>
-PASSWORD: <will be provided during workshop>
+* URL: https://console.cloud.google.com
+* USERNAME: <will be provided during workshop>
+* PASSWORD: <will be provided during workshop>
 
 ## 3. Azure login ##
 
-URL: https://portal.azure.com
-USERNAME: <will be provided during workshop>
-PASSWORD: <will be provided during workshop> 
+* URL: https://portal.azure.com
+* USERNAME: <will be provided during workshop>
+* PASSWORD: <will be provided during workshop> 
 
 ## 4. Create GitHub account ##
 
 If you do not already have a GitHub account, create one for free:
 
-URL: https://github.com/join
+* URL: https://github.com/join
 
 ## 5. Create Docker Hub account ##
 
 If you do not already have a Docker Hub account, create one for free:
 
-URL: https://hub.docker.com/signup
+* URL: https://hub.docker.com/signup
 
 ## 6. Join Slack channel ##
 
 Join the Slack channel through:
 
-URL: https://join.slack.com/t/multi-cloudworkshop/shared_invite/enQtNzk0MzE1OTY3OTczLTdiOTkwZDYyYzY3ZDRjZWY2YjRjMWZmOWE2YTMwYmNiZmNiZWQzZjEzYzQ1ZWQ2YjIzMWM5ZDAzNzFlZTg4NTg
+* URL: https://join.slack.com/t/multi-cloudworkshop/shared_invite/enQtNzk0MzE1OTY3OTczLTdiOTkwZDYyYzY3ZDRjZWY2YjRjMWZmOWE2YTMwYmNiZmNiZWQzZjEzYzQ1ZWQ2YjIzMWM5ZDAzNzFlZTg4NTg
 
 ## 7. Linux VM login ##
 
