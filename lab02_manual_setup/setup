@@ -6,5 +6,8 @@ curl -fsSL https://get.docker.com/ | sh
 # add current user to the Docker group
 sudo usermod -aG docker $USER
 
+# reload shell
+su - $USER
+
 # start the docker container
 docker container run -d -p 80:80 gluobe/multi-cloud-app:v1
