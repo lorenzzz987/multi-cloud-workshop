@@ -4,7 +4,9 @@ The goal of this lab is to run our application on our managment server.  To make
 
 ## 0. Fork the application repository ##
 
-Before doing anything else, open your browser en visit the following GitHub page: https://github.com/gluobe/multi-cloud-app
+Before doing anything else, open your browser en visit the following GitHub page:
+
+https://github.com/gluobe/multi-cloud-app
 
 On the top right you should see a `Fork` button, click this button and fork the repository into your own GitHub account.
 
@@ -259,4 +261,6 @@ Now stop and remove you own container:
 docker container rm -f $(docker container ls -ql)
 ```
 
-Now run one of the `docker container run` commands that one of colleagues posted to Slack, visit http://X.mgmt.gluo.cloud again to see that also your colleagues image works without any issues on your server.  This is a good example of how easy Docker makes it to move application from one server to another (this is exactly why we will be using Docker in the next labs).
+Now run one of the `docker container run` commands that one of colleagues posted to Slack, visit http://X.mgmt.gluo.cloud again to see that also your colleagues image works without any issues on your server.
+
+This is a good example of how easy Docker makes it to move application from one server to another (this is exactly why we will be using Docker in the next labs).
