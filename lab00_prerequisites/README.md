@@ -5,20 +5,20 @@
 Verify that you can succesfully login to AWS:
 
 * URL: https://gluo-workshop.signin.aws.amazon.com/console
-* USERNAME: <will be provided during workshop>
-* PASSWORD: <will be provided during workshop>
+* USERNAME: `<will be provided during workshop>`
+* PASSWORD: `<will be provided during workshop>`
 
 ## 2. Google Cloud Console login ##
 
 * URL: https://console.cloud.google.com
-* USERNAME: <will be provided during workshop>
-* PASSWORD: <will be provided during workshop>
+* USERNAME: `<will be provided during workshop>`
+* PASSWORD: `<will be provided during workshop>`
 
 ## 3. Azure login ##
 
 * URL: https://portal.azure.com
-* USERNAME: <will be provided during workshop>
-* PASSWORD: <will be provided during workshop> 
+* USERNAME: `<will be provided during workshop>`
+* PASSWORD: `<will be provided during workshop>`
 
 ## 4. Create GitHub account ##
 
