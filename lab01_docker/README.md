@@ -143,6 +143,12 @@ The Dockerfile will do the following:
 
 ## 4. Build the Docker image ##
 
+Change into the correct directory:
+
+```
+cd multi-cloud-app
+```
+
 Building the Docker image is as easy as running the command below, make sure to replace `YOURDOCKERHUBACCOUNTNAME` with your actual Docker Hub account name:
 
 ```
