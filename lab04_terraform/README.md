@@ -84,7 +84,7 @@ vi ~/multi-cloud-workshop/lab04_terraform/aws/variables.tf
 If you have successfully edited and saved the `variables.tf` file you can change into the directory that contains the Terraform code for AWS:
 
 ```
-cd ~/multi-cloud-workshop/aws/
+cd ~/multi-cloud-workshop/lab04_terraform/aws/
 ```
 
 Have a look at the content of the Terraform file:
@@ -687,7 +687,7 @@ vi ~/multi-cloud-workshop/lab04_terraform/google/variables.tf
 If you have successfully edited and saved the `variables.tf` file you can change into the directory that contains the Terraform code for Google Cloud:
 
 ```
-cd ~/multi-cloud-workshop/google/
+cd ~/multi-cloud-workshop/lab04_terraform/google/
 ```
 
 Have a look at the content of the Terraform file:
@@ -799,7 +799,7 @@ vi ~/multi-cloud-workshop/lab04_terraform/azure/variables.tf
 If you have successfully edited and saved the `variables.tf` file you can change into the directory that contains the Terraform code for Azure:
 
 ```
-cd ~/multi-cloud-workshop/azure/
+cd ~/multi-cloud-workshop/lab04_terraform/azure/
 ```
 
 Have a look at the content of the Terraform file:
@@ -952,7 +952,7 @@ Make sure that everything is deleted correctly, if you run into any issues let o
 Delete all resources on AWS:
 
 ```
-cd ~/multi-cloud-workshop/aws/
+cd ~/multi-cloud-workshop/lab04_terraform/aws/
 
 terraform destroy
 ``` 
@@ -960,7 +960,7 @@ terraform destroy
 Delete all resources on Google Cloud:
 
 ```
-cd ~/multi-cloud-workshop/google/
+cd ~/multi-cloud-workshop/lab04_terraform/google/
 
 terraform destroy
 ``` 
@@ -968,7 +968,7 @@ terraform destroy
 Delete all resources on Azure:
 
 ```
-cd ~/multi-cloud-workshop/azure/
+cd ~/multi-cloud-workshop/lab04_terraform/azure/
 
 terraform destroy
 ```
