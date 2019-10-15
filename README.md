@@ -1,53 +1,49 @@
-# Lab 04 - Terraform #
-
-### 1. Install Terraform ###
-
-`sudo apt-get install unzip`
-`wget https://releases.hashicorp.com/terraform/0.12.10/terraform_0.12.10_linux_amd64.zip`
-`unzip terraform_0.12.10_linux_amd64.zip`
-`sudo mv terraform /usr/local/bin/`
-`terraform --version`
-
-### 2. AWS configuration ###
-
-click account bovenaan -> my security credentials -> create access key
+# **Multi-cloud workshop** #
 
 
-edit variables.tf with keys
-edit variables.tf instance name student number
+### Introduction ###
 
-NOT NEEDED ANYMORE, DEFINED IN variables.tf
-`sudo apt-get instal awscli`
-`aws configure`
-key ID:  
-Secret:  
-region: eu-west-1
-default output format: json
-`aws ec2 describe-instances`
+Public clouds are omnipresent these days, but which public cloud provider do you choose?  Can you avoid cloud lock-in?  And if you can, do you really want to avoid this?
 
-### 3. Gcloud configuration ###
+In this workshop we will look at how we can easily configure infrastructure into different public cloud providers (AWS, Google Cloud and Azure).  Once we have our infrastructure in place we will look at how we can easily deploy application to them.
 
-# Add the Cloud SDK distribution URI as a package source
-echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] http://packages.cloud.google.com/apt cloud-sdk main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
-
-# Import the Google Cloud Platform public key
-curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key --keyring /usr/share/keyrings/cloud.google.gpg add -
-:
-# Update the package list and install the Cloud SDK
-sudo apt-get update && sudo apt-get install google-cloud-sdk
-
-`glcoud auth application-default login`
-
-open link, authorize, copy verification code
+This workshop is accompanied by a presentation which should give you additional insights and knowlegde required to complete this hands-on part.
 
 
-edit variabled.tf student number
+### Table of contents ###
 
-ALTERNATIVE: use service account ( Downloads/gluo-sandbox-450764035ef3.json )  
-export GOOGLE_CLOUD_KEYFILE_JSON="/home/jens/Downloads/gluo-sandbox-450764035ef3.json"
+* [Lab 00 - Prerequisites](lab00_prerequisites)
+* [Lab 01 - Docker](lab01_docker)
+* [Lab 02 - Manual setup](lab02_manual_setup)
+* [Lab 03 - Infrastructure 2.0](lab03_infra2.0)
+* [Lab 04 - Terraform](lab04_terraform)
+* [Lab 05 - Infrastructure pipeline](lab05_infra_pipeline)
+* [Lab 06 - Application pipeline](lab06_app_pipeline)
 
-### 4. Azure configuration ###
 
-We would need to create a service principal. but credentials have already been provided in azure/variables.tf.
+### Summed up contents ###
 
-edit variabled.tf student number
+In this workshop we'll discover the following tools:
+
+* Docker basics
+* CloudFormation (AWS), ARM Templates (Azure), Deployment Manager (Google Cloud)
+* Terraform
+* AWS (EC2 instances + Route53)
+* Google Cloud (Compute Instances + DNS)
+* Azure (Virtual Machines + DNS)
+* Azure DevOps
+
+
+### Target group ###
+
+This workshop is very much an introduction to the different public cloud providers.  It also provides the basics about DevOps/CI/CD pipelines.
+
+
+### Some notes ###
+
+* You will not be able to start this workshop on your own without a Gluo tutor. We set up an environment in which you can work (creating accounts and initial instances...) using scripting which is not integrated into the public GitHub repository.
+
+
+### Contact ###
+
+If you liked what we did or want to like what we do, please do contact us! Revelant links can always be found at http://www.gluo.be.
