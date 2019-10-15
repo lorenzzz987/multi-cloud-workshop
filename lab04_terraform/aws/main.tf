@@ -8,6 +8,7 @@ resource "aws_instance" "ec2-instance" {
   
   security_groups = [
     "${aws_security_group.allow_ssh.name}",
+    "${aws_security_group.allow_http.name}",
     "${aws_security_group.allow_outbound.name}"
   ]
   
@@ -42,6 +43,17 @@ resource "aws_security_group" "allow_ssh" {
     protocol    = "tcp"
     cidr_blocks = ["0.0.0.0/0"]
   }
+}
+
+resource "aws_security_group" "allow_http" {
+ name        = "allow-http-students"
+ description = "Allow HTTP inbound traffic"
+ ingress {
+   from_port   = 80
+   to_port     = 80
+   protocol    = "tcp"
+   cidr_blocks = ["0.0.0.0/0"]
+ }
 }
 
 resource "aws_security_group" "allow_outbound" {

@@ -1,3 +1,4 @@
+# replace the X with your student ID
 variable "studentID" {
   default = "X"
 }
@@ -6,8 +7,8 @@ variable "gcp_machine_type" {
   default = "g1-small"
 }
 
+# ---- DO NOT EDIT anything below this line -----------------------------
 
-## DO NOT EDIT
 variable "gcp_project" {
   default = "gluo-sandbox"
 }

@@ -1,3 +1,4 @@
+# replace the X with your student ID
 variable "studentID" {
   default = "X"
 }
@@ -7,7 +8,8 @@ variable "aws_machine_type" {
 }
 
 
-## DO NOT EDIT
+# ---- DO NOT EDIT anything below this line -----------------------------
+
 variable "aws_region" {
   default = "eu-west-1"
 }
