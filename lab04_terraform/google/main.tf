@@ -32,7 +32,7 @@ resource "google_compute_instance" "vm_instance" {
 }
 
 resource "google_dns_record_set" "a" {
-  name = "${var.studentID}.google.gluo.cloud."
+  name = "${var.studentID}.tf.google.gluo.cloud."
   managed_zone = "google-gluo-cloud"
   type = "A"
   ttl  = 60

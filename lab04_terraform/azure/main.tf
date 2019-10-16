@@ -100,7 +100,7 @@ data "azurerm_public_ip" "test" {
 }
 
 resource "azurerm_dns_a_record" "myterraformdns" {
-  name                = "${var.studentID}"
+  name                = "${var.studentID}.tf"
   zone_name           = "azure.gluo.cloud"
   resource_group_name = "multi-cloud-workshop"
   ttl                 = 60
