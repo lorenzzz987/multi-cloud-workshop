@@ -46,7 +46,7 @@ resource "aws_security_group" "allow_ssh" {
 }
 
 resource "aws_security_group" "allow_http" {
- name        = "allow-http-student${var.studentID}
+ name        = "allow-http-student${var.studentID}"
  description = "Allow HTTP inbound traffic"
  ingress {
    from_port   = 80
