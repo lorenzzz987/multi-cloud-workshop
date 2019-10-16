@@ -83,15 +83,15 @@ Advanced: untick `Fail on STDERR`
 
 Second SSH task:  
 Display name: `Deploy docker image to Azure`  
-SSH service connection: `Azure`
+SSH service connection: `Azure`  
 Commands:
 * `docker image pull YOURDOCKERHUBUSERNAME/multi-cloud-app:latest`
-* `docker container run -d -p 80:80 YOURDOCKERHUBUSERNAME/multi-cloud-app:latest`
+* `docker container run -d -p 80:80 YOURDOCKERHUBUSERNAME/multi-cloud-app:latest`  
 Advanced: untick `Fail on STDERR`
 
 Third SSH task:  
 Display name: `Deploy docker image to Google`  
-SSH service connection: `Google`
+SSH service connection: `Google`  
 Commands: 
 * `docker image pull YOURDOCKERHUBUSERNAME/multi-cloud-app:latest`
 * `docker container run -d -p 80:80 YOURDOCKERHUBUSERNAME/multi-cloud-app:latest`  
