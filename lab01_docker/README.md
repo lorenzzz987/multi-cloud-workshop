@@ -120,7 +120,7 @@ NOTE: if you get any kind of error do NOT proceed, just let one of the instructo
 Download the application code onto your management server by cloning the GitHub repository:
 
 ```
-git clone https://github.org/YOURGITHUBACCOUNTNAME/multi-cloud-app
+git clone https://github.com/YOURGITHUBACCOUNTNAME/multi-cloud-app
 ```
 
 ## 3. Dockerfile ##
