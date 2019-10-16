@@ -79,14 +79,15 @@ Target Folder: `$(Build.ArtifactStagingDirectory)`
 To authorize with our different providers we need to add some environment variables to our build machine. Click on the variable tab.  
 
 We need to add the following variables, the values will be provided in slack:
-`GOOGLE_CREDENTIALS`  
-`AWS_ACCESS_KEY_ID`  
-`AWS_SECRET_ACCESS_KEY`  
-`AWS_DEFAULT_REGION`  
-`ARM_CLIENT_ID`  
-`ARM_SUBSCRIPTION_ID`  
-`ARM_TENANT_ID`  
-`ARM_CLIENT_SECRET`  
+
+* `GOOGLE_CREDENTIALS`  
+* `AWS_ACCESS_KEY_ID`  
+* `AWS_SECRET_ACCESS_KEY`  
+* `AWS_DEFAULT_REGION`  
+* `ARM_CLIENT_ID`  
+* `ARM_SUBSCRIPTION_ID`  
+* `ARM_TENANT_ID`  
+* `ARM_CLIENT_SECRET`  
 
 We also need to add our SSH keys as secure files. These will also be provided in slack.  
 To add the files go to `Library` -> `Secure files` and click on the `+` sign. There should be 2 key files available on slack, make sure you add both here.  

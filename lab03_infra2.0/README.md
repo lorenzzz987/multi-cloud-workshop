@@ -164,3 +164,11 @@ Not yet available
 ### AWS ###
 
 Go back to the `CloudFormation` section, select your own stack and click the `Delete` button, confirm by clicking the orange `Delete stack` button.  As soon as your stack has been successfully deleted visit the `EC2` and `Route53` sections again to confirm that your resources have indeed been cleaned up completely.
+
+## Google Cloud ##
+
+Not yet available
+
+## Azure ##
+
+Not yet available
